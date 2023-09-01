@@ -15,10 +15,8 @@ const containerStyle = {
 const imageStyle = {
   width: "100%",
   height: "auto",
-  display: "block"
-};
-
-
+  display: "block",
+}
 
 const overlayStyle = {
   position: "absolute",
@@ -32,7 +30,6 @@ const overlayStyle = {
   padding: "20px", // Adjust the spacing from the left edge
   zIndex: 1,
 };
-
 
 const SecondSection = () => {
   return (
@@ -89,18 +86,17 @@ const SecondSection = () => {
             <Button
               variant="contained"
               sx={{
-                display:"flex",
-                padding:"0 16px",
-                justifyContent:"center",
-                alignItems:"center",
-                gap:"10px",
-                borderRadius:"6px",
-                background:"#21B07D",
-                width:"206px",
-                height:"49px",
-                borderRadius:"6px",
+                display: "flex",
+                padding: "0 16px",
+                justifyContent: "center",
                 alignItems: "center",
-
+                gap: "10px",
+                borderRadius: "6px",
+                background: "#21B07D",
+                width: "206px",
+                height: "49px",
+                borderRadius: "6px",
+                alignItems: "center",
               }}
             >
               <Typography

@@ -15,7 +15,7 @@ const Header = () => {
         <Toolbar sx={{ justifyContent: "space-between", flexDirection: "row" }}>
           <Box
             sx={{
-              display: "flex",                
+              display: "flex",
               alignItems: "center",
               ml: "120px",
               mt: "36px",
@@ -23,7 +23,15 @@ const Header = () => {
           >
             <img src={Logo} alt="Logo" />
           </Box>
-          <Box sx={{ mt: "42px", ml: "763px" }} >
+          <Box
+            sx={{
+              width: "Hug (575px)",
+              height: "Hug (20px)",
+              gap: "36px",
+              display: "flex",
+              justifyContent: "flex-start",
+            }}
+          >
             <Link
               href="#"
               sx={{
