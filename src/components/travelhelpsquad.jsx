@@ -7,26 +7,26 @@ const TravelHelpSquad = () => {
       <Typography
         variant="h1"
         sx={{
-          color: "#21B07D",
+          color: "rgba(33, 176, 125, 1)",
           fontFamily: "Gilroy-Bold",
           fontSize: "40px",
           fontStyle: "normal",
-          fontWeight: 400,
+          fontWeight: 600,
         }}
       >
         Travel Help Squad{" "}
       </Typography>
-      <br/>
+      <br />
       <Typography
         variant="body1"
         sx={{
-          color: "#5C5F5E",
+          color: "rgba(92, 95, 94, 1)",
           textAlign: "center",
           fontFamily: " Gilroy-Medium",
           fontSize: "16px",
           fontStyle: "normal",
           fontWeight: 400,
-          lineHeight:"32px"
+          lineHeight: "32px",
         }}
       >
         As individuals at Travel Help Squad, We are dedicated to driving
@@ -41,8 +41,7 @@ const TravelHelpSquad = () => {
           fontSize: "16px",
           fontStyle: "normal",
           fontWeight: 400,
-          lineHeight:"32px"
-
+          lineHeight: "32px",
         }}
       >
         exploring new ways to improve our solutions. We believe that by
@@ -57,6 +56,8 @@ const TravelHelpSquad = () => {
           fontSize: "16px",
           fontStyle: "normal",
           fontWeight: 400,
+          lineHeight: "32px",
+
         }}
       >
         their parking enforcement operations and improve traffic flow in their

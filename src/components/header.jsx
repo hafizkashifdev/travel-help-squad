@@ -25,11 +25,10 @@ const Header = () => {
           </Box>
           <Box
             sx={{
-              width: "Hug (575px)",
-              height: "Hug (20px)",
               gap: "36px",
               display: "flex",
               justifyContent: "flex-start",
+              width:"48%"
             }}
           >
             <Link
@@ -41,11 +40,11 @@ const Header = () => {
                 pb: "3px",
                 textDecoration: "none",
                 color: "#21B07D",
-                fontFamily: "Gilroy-SemiBold",
+                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "normal",
+                lineHeight: "18.75px",
               }}
             >
               Home
@@ -57,11 +56,11 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-SemiBold",
+                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "normal",
+                lineHeight: "18.75px",
               }}
             >
               Blogs
@@ -73,11 +72,11 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-SemiBold",
+                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "normal",
+                lineHeight: "18.75px",
               }}
             >
               Pricing
@@ -89,11 +88,11 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-SemiBold",
+                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "normal",
+                lineHeight: "18.75px",
               }}
             >
               Our Offering
@@ -105,11 +104,11 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-SemiBold",
+                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "normal",
+                lineHeight: "18.75px",
               }}
             >
               Contact Us
@@ -121,11 +120,11 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-SemiBold",
+                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
-                lineHeight: "normal",
+                lineHeight: "18.75px",
               }}
             >
               Solutions
