@@ -43,6 +43,8 @@ const CardInsurance = () => {
 
   const dotStyle = {
     color: "#21B07D",
+    position: "relative",
+    left: "-10px",
   };
 
   return (

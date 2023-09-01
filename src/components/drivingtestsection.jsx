@@ -35,7 +35,7 @@ const DrivingTestSection = () => {
             gap: "2rem",
           }}
         > */}
-          <Typography
+          {/* <Typography
             variant="body1"
             sx={{
               ml: "25%",
@@ -67,7 +67,7 @@ const DrivingTestSection = () => {
             >
               river in the UK!
             </span>
-          </Typography>
+          </Typography> */}
         {/* </div> */}
 
         <br />
@@ -86,6 +86,7 @@ const DrivingTestSection = () => {
               maxWidth: "678px",
               width: "100%",
               color: "#5C5F5E",
+              marginTop:"20%",
             }}
           >
             Our team consists of experienced developers, parking enforcement
