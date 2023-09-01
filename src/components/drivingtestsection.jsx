@@ -6,7 +6,7 @@ import DriverImage from "../../src/assets/driverimageuk.png";
 
 const DrivingTestSection = () => {
   return (
-    <Grid container sx={{ padding: 5, spacing: 3 }}>
+    <Grid container sx={{ padding: 5 , spacing: 3 }}>
       <Grid item xs={12} sm={6} >
         <div
           style={{
