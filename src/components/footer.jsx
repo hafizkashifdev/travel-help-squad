@@ -202,7 +202,7 @@ const Footer = () => {
           width: "1156px",
           height: "1px",
           border: "none",
-          borderTop: "2px solid #21B07D",
+          borderTop: "2px solid rgba(217, 217, 217, 1)",
           borderRadius: "2px",
         }}
       />

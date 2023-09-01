@@ -27,14 +27,14 @@ const DrivingTestSection = () => {
             }}
           />
         </div>
-        <div
+        {/* <div
           style={{
             height: "auto",
             display: "flex",
             flexDirection: "column",
             gap: "2rem",
           }}
-        >
+        > */}
           <Typography
             variant="body1"
             sx={{
@@ -68,7 +68,7 @@ const DrivingTestSection = () => {
               river in the UK!
             </span>
           </Typography>
-        </div>
+        {/* </div> */}
 
         <br />
         <div
