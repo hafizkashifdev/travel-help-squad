@@ -8,7 +8,7 @@ const TravelHelpSquad = () => {
         variant="h1"
         sx={{
           color: "rgba(33, 176, 125, 1)",
-          fontFamily: "Gilroy-Bold",
+          fontFamily: "Gilroy,Gilroy-Bold",
           fontSize: "40px",
           fontStyle: "normal",
           fontWeight: 600,
@@ -18,11 +18,10 @@ const TravelHelpSquad = () => {
       </Typography>
       <br />
       <Typography
-        variant="body1"
         sx={{
           color: "rgba(92, 95, 94, 1)",
           textAlign: "center",
-          fontFamily: " Gilroy-Medium",
+          fontFamily: "Gilroy, Gilroy-Medium",
           fontSize: "16px",
           fontStyle: "normal",
           fontWeight: 400,
@@ -37,7 +36,7 @@ const TravelHelpSquad = () => {
         sx={{
           color: "#5C5F5E",
           textAlign: "center",
-          fontFamily: " Gilroy-Medium",
+          fontFamily: "Gilroy, Gilroy-Medium",
           fontSize: "16px",
           fontStyle: "normal",
           fontWeight: 400,
@@ -52,7 +51,7 @@ const TravelHelpSquad = () => {
         sx={{
           color: "#5C5F5E",
           textAlign: "center",
-          fontFamily: " Gilroy-Medium",
+          fontFamily: "Gilroy, Gilroy-Medium",
           fontSize: "16px",
           fontStyle: "normal",
           fontWeight: 400,

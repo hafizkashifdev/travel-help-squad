@@ -31,11 +31,11 @@ const CardInsurance = () => {
     position: "absolute",
     zIndex: 1,
     top: "75%",
-    left: "56%",
+    left: "59%",
     transform: "translate(-50%, -50%)",
     textAlign: "center",
     color: "white",
-    width: "100%",
+    width: "850px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -60,7 +60,7 @@ const CardInsurance = () => {
         <Typography
           variant="h1"
           sx={{
-            fontStyle: "Gilroy-Bold",
+            fontStyle: "Gilroy,Gilroy-Bold",
             fontSize: "40px",
             lineHeight: "46.88px",
             textAlign: "start",
@@ -97,7 +97,7 @@ const CardInsurance = () => {
         <Typography
           variant="body1"
           sx={{
-            fontFamily: "Gilroy-Medium",
+            fontFamily: "Gilroy,Gilroy-Medium",
             fontSize: "16px",
             lineHeight: "20px",
             color: "#FFFFFFB2",

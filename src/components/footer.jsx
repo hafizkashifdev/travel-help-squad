@@ -33,7 +33,7 @@ const Footer = () => {
               variant="body"
               sx={{
                 color: "#4D4D4D",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -46,7 +46,7 @@ const Footer = () => {
               variant="body"
               sx={{
                 color: "#4D4D4D",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -64,7 +64,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -77,7 +77,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -90,7 +90,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -103,7 +103,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -118,7 +118,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -131,7 +131,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -144,7 +144,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -157,7 +157,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -172,7 +172,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -185,7 +185,7 @@ const Footer = () => {
               variant="h6"
               sx={{
                 color: "#5C5F5E",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy, Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -212,7 +212,7 @@ const Footer = () => {
             variant="body"
             sx={{
               color: "#5C5F5E",
-              fontFamily: "Gilroy-Medium",
+              fontFamily: "Gilroy, Gilroy-Medium",
               fontSize: "14px",
               fontStyle: "normal",
               fontWeight: 400,

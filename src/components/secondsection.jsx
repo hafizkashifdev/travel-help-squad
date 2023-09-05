@@ -1,49 +1,67 @@
 import React from "react";
-import { styled } from "@mui/material/styles";
+import { Container, Grid, Paper } from "@mui/material";
+import backgroundImage from "../assets/offers/hero-img.svg";
+import colorburn from "../assets/colorburn.png";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
-import LeftImage from "../assets/leftimage.png";
-import RightImage from "../assets/rightimage.png";
 import { Typography } from "@mui/material";
 import { Button } from "@mui/material";
-
-const containerStyle = {
-  position: "relative",
-};
-
-const imageStyle = {
-  width: "100%",
-  height: "auto",
-  display: "block",
-}
+import SearchOffer from "./our-offers/search-offer/search-offer";
 
 const overlayStyle = {
   position: "absolute",
-  top: "-24%",
-  left: "6%",
-  width: "50%", // Adjust the width as needed
+  left: "5.9%",
+  width: "50%",
+  top:"0%",
   height: "100%",
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
-  padding: "20px", // Adjust the spacing from the left edge
+  padding: "25px",
   zIndex: 1,
 };
 
+const dotStyle = {
+  color: "#21B07D",
+  position: "relative",
+  left: "2px",
+};
 const SecondSection = () => {
   return (
-    <Box sx={{ flexGrow: 1, position: "relative" }}>
-      <Grid container spacing={0} style={containerStyle}>
-        <Grid item xs={12} lg={6}>
-          <Box>
-            <img src={LeftImage} alt="Logo" style={imageStyle} />
-          </Box>
+    <>
+    <div
+    style={{
+      backgroundImage: `url(${backgroundImage})`,
+      backgroundSize: "100% auto", // Adjusted background size
+      minHeight: "610px",
+      position: "relative",
+      zIndex: 1, 
+    }}
+  >
+    <div
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        minHeight: "610px",
+        // background: "linear-gradient(262deg, #000 13.81%, rgba(0, 0, 0, 0.06) 106.26%)",
+        background: "linear-gradient(262deg, rgba(0, 0, 0, 0.06) 13.81%, #000 106.26%)",
+
+        // opacity: 0.4,
+        // zIndex: 2, 
+      }}
+      />
+      <Container>
+        <Grid container spacing={2}>
+          <Grid item xs={12} sm={6}>
           <Box sx={overlayStyle}>
             <Typography
               variant="h1"
               sx={{
                 color: "#FFFFFF",
+                width:'100%',
+                maxWidth:'551px',
+                height:'69px',
                 fontFamily: "Gilroy-Bold",
                 fontSize: "56px",
                 fontStyle: "normal",
@@ -51,22 +69,8 @@ const SecondSection = () => {
                 textAlign: "left",
               }}
             >
-              Your Ultimate{" "}
+              Our Offerings{" "}
             </Typography>
-            <Typography
-              variant="H1"
-              sx={{
-                color: "#FFFFFF",
-                fontFamily: "Gilroy-Bold",
-                fontSize: "56px",
-                fontStyle: "normal",
-                fontWeight: 700,
-                textAlign: "left",
-              }}
-            >
-              Driver's Platform{" "}
-            </Typography>
-            <br />
             <Typography
               variant="body"
               sx={{
@@ -74,55 +78,34 @@ const SecondSection = () => {
                 fontFamily: "Gilroy-Bold",
                 fontSize: "20px",
                 fontStyle: "normal",
+                maxWidth:'563px',
                 fontWeight: 400,
                 textAlign: "left",
                 lineHeight: "32px",
               }}
             >
-              A digital solution to meet driver's requirements
-              <br /> through one single platform{" "}
+             We try to get the best and most convenient options and <br/>deals for you through our one single comprehensive platform
             </Typography>
-            <br />
-            <Button
-              variant="contained"
-              sx={{
-                display: "flex",
-                padding: "0 16px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "10px",
-                borderRadius: "6px",
-                background: "#21B07D",
-                width: "206px",
-                height: "49px",
-                borderRadius: "6px",
-                alignItems: "center",
-              }}
-            >
-              <Typography
-                sx={{
-                  color: "#FFF",
-                  textAlign: "center",
-                  fontFamily: "Gilroy-SemiBold",
-                  fontSize: "16px",
-                  fontStyle: "normal",
-                  fontWeight: 400,
-                  lineHeight: "normal",
-                  letterSpacing: "0.8px",
-                }}
-              >
-                REGISTER/ LOGIN
-              </Typography>
-            </Button>
+          
+            <SearchOffer/>
           </Box>
+
+          </Grid>
+          <Grid item xs={12} >
+          
+          </Grid>
         </Grid>
-        <Grid item xs={12} lg={6}>
-          <Box>
-            <img src={RightImage} alt="Logo" style={imageStyle} />
-          </Box>{" "}
-        </Grid>
-      </Grid>
-    </Box>
+       
+      </Container>
+      <Grid 
+    
+    >
+   
+    </Grid>
+    </div>
+   
+    
+     </>
   );
 };
 

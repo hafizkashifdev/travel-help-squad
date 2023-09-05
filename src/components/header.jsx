@@ -12,7 +12,7 @@ const Header = () => {
         position="fixed"
         sx={{ backgroundColor: "transparent" }}
       >
-        <Toolbar sx={{ justifyContent: "space-between", flexDirection: "row" }}>
+        <Toolbar sx={{ justifyContent: "space-between", display: "flex" }}>
           <Box
             sx={{
               display: "flex",
@@ -23,12 +23,14 @@ const Header = () => {
           >
             <img src={Logo} alt="Logo" />
           </Box>
+
           <Box
             sx={{
               gap: "36px",
               display: "flex",
               justifyContent: "flex-start",
-              width:"48%"
+              width: "48%",
+              marginTop: "1%",
             }}
           >
             <Link
@@ -36,19 +38,19 @@ const Header = () => {
               sx={{
                 mr: "20px",
                 color: "#21B07D",
-                borderBottom: "2px solid #21B07D",
-                pb: "3px",
                 textDecoration: "none",
-                color: "#21B07D",
-                fontFamily: "Gilroy-Medium",
                 fontSize: "16px",
-                fontStyle: "normal",
+                fontFamily: "Gilroy, Gilroy-SemiBold",
                 fontWeight: 400,
                 lineHeight: "18.75px",
               }}
             >
-              Home
+              <span style={{ borderBottom: "2px solid #21B07D", pb: "2px" }}>
+                Hom
+              </span>
+              e
             </Link>
+
             <Link
               href="#"
               sx={{
@@ -56,7 +58,7 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy,Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -65,6 +67,7 @@ const Header = () => {
             >
               Blogs
             </Link>
+
             <Link
               href="#"
               sx={{
@@ -72,7 +75,7 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy,Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -81,6 +84,7 @@ const Header = () => {
             >
               Pricing
             </Link>
+
             <Link
               href="#"
               sx={{
@@ -88,7 +92,7 @@ const Header = () => {
                 color: "#BEC2C1",
                 textDecoration: "none",
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-Medium",
+                fontFamily: "Gilroy,Gilroy-Medium",
                 fontSize: "16px",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -97,34 +101,52 @@ const Header = () => {
             >
               Our Offering
             </Link>
+
             <Link
               href="#"
               sx={{
                 mr: "20px",
+
                 color: "#BEC2C1",
+
                 textDecoration: "none",
+
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-Medium",
+
+                fontFamily: "Gilroy,Gilroy-Medium",
+
                 fontSize: "16px",
+
                 fontStyle: "normal",
+
                 fontWeight: 400,
+
                 lineHeight: "18.75px",
               }}
             >
               Contact Us
             </Link>
+
             <Link
               href="#"
               sx={{
                 mr: "20px",
+
                 color: "#BEC2C1",
+
                 textDecoration: "none",
+
                 color: "#BEC2C1",
-                fontFamily: "Gilroy-Medium",
+
+                fontFamily: "Gilroy,Gilroy-Medium",
+
                 fontSize: "16px",
-                fontStyle: "normal",
+
+                // fontStyle: "normal",
+
                 fontWeight: 400,
-                lineHeight: "18.75px",
+
+                // lineHeight: "18.75px",
               }}
             >
               Solutions
@@ -133,7 +155,9 @@ const Header = () => {
                 alt="Arrow"
                 style={{
                   backgroundColor: "transparent",
+
                   marginLeft: "5px",
+
                   border: "none",
                 }}
               />
